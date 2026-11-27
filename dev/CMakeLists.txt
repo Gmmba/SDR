@@ -12,7 +12,6 @@ set(MAIN_SOURCE_FILES
     main.cpp
 )
 
-# Добавляем исполняемый файл
 add_executable(main ${MAIN_SOURCE_FILES})
 
 target_link_libraries(main ${SoapySDR_LIBRARIES})
